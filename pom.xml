@@ -77,6 +77,27 @@
             <version>${shiro.version}</version>
         </dependency>
 
+        <!--使用junit-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <!--使用jdbcRealm-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.16</version>
+        </dependency>
+
+
         <!-- Stormpath support for quick Realm deployment: -->
         <dependency>
             <groupId>com.stormpath.shiro</groupId>
@@ -95,6 +116,7 @@
             <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
 </project>
